@@ -1,2 +1,2 @@
 # cardfolio
-My Profile Card
+MyProfileCard
