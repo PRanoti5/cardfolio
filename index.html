@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
+
 </head>
 <body>
-    
+  <div class="dark-mode-toggle">
+    <input type="checkbox" id="dark-mode-toggle">
+    <label for="dark-mode-toggle">
+      <i class="fas fa-sharp fa-solid fa-moon"></i></label>
+  </div>
+  <div class="card">
+    <img src="Image.jpg" alt="Profile Picture" class="profile-pic">
+    <h2> Pranoti Bhute</h2>
+    <p><strong>Web Developer</strong></p>
+    <p class="description">Eager to leverage analytical skills and passion for innovation to excel as a frontend web developer in the IT industry.</p>
+    <div class="socialIcons">
+      <a href="https://twitter.com/your_twitter_username" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com/in/your_linkedin_username" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://instagram.com/your_instagram_username" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="tel:+918080289349"><i class="fas fa-phone"></i></a>
+    </div>
+  </div>
+
+  <script>
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+const body = document.body;
+
+darkModeToggle.addEventListener('change', () => {
+  body.classList.toggle('dark-mode');
+});
+  </script>
 </body>
 </html>

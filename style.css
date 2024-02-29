@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: rgba(212, 119, 255, 0.29);
+  width: 280px;
+  padding: 25px;
+  border: 1px solid #c7319a;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  box-shadow:  0 0 8px rgba(19, 3, 3, 0.833);
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+ .socialIcons {
+  margin-top: 15px;
+ }
+
+a {
+  padding: 10px;
+  margin: 5px;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.dark-mode-toggle label {
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #030303;
+}
